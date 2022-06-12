@@ -421,7 +421,7 @@ ul.nav li.active a:before {
 }
 /*Background-stylesheets-include-here*/
 .bg-sec {
-	background:#003e93;
+	background:#6462b9;
 	margin-top:10px;
 	padding: 1% 0%;
 }
@@ -549,7 +549,7 @@ ul.nav li.active a:before {
 	font-size:25px;
 }
 #features .nav-tabs > li.active > a i.fa {
-	color:#003e93;
+	color:#6462b9;
 }
 #features .nav-tabs > li > a:hover {
 	border-color:transparent;
