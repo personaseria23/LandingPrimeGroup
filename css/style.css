@@ -425,6 +425,15 @@ ul.nav li.active a:before {
 	margin-top:10px;
 	padding: 1% 0%;
 }
+
+.googgleMapsUbicacion {
+	margin: 1em;
+}
+
+.hoverTitulo:hover{
+  color: #003e93;
+}
+
 .bg-sec h3 {
 	color:#FFFFFF;
 	text-transform:none;
@@ -531,6 +540,7 @@ ul.nav li.active a:before {
 	border-bottom:2px solid #003e93;
 	background:#f8f8f8;
 }
+
 #features .nav-tabs > li > a {
 	color:#555;
 	margin-right:0;
@@ -1356,3 +1366,8 @@ color:#fff;
 }
 
 /*Basic-Stylesheets-End-Here*/
+
+
+#features .nav-tabs > li.active > p, #features .nav-tabs > li.active > p:hover, #features .nav-tabs > li.active > p:focus{
+	color: #003e93;
+}
