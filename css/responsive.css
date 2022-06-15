@@ -1,9 +1,9 @@
 @media all and (min-width: 993px) and (max-width: 1200px) {
 #slider-video {
-    position: relative;
+    position: fixed;
 	}
 .slider-wrap{
-position:relative;
+position:fixed;
 }
 .carousel-caption h2{
 font-size:67px;
@@ -36,7 +36,7 @@ text-align:justify;
     position: relative;
 	}
 .slider-wrap{
-position:relative;
+position:fixed;
 }
 .carousel-caption h2{
 font-size:67px;
@@ -288,4 +288,29 @@ margin-top:30px;
 #footer-down ul li {
     margin-right: 10px;
 }
+/* CSS general */
+.mi-iframe {
+    width: 100px;
+    height: 50px;
+  }
+  
+  /* CSS pantallas de 320px o superior */
+  @media (min-width: 320px) {
+  
+    .mi-iframe {
+      width: 200px;
+      height: 150px;
+    } 
+  
+  }
+  
+  /* CSS pantalla 768px o superior */
+  @media (min-width: 768px) {
+  
+    .mi-iframe {
+      width: 500px;
+      height: 350px;
+    } 
+  
+  }
 }
