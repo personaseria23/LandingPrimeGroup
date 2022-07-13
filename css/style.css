@@ -25,6 +25,9 @@ body {
 	font-family: 'helvetica_ce_55_romanregular';
 	position: center;
 }
+ul {
+	font-family: 'helvetica_ce_55_romanregular'
+}
 /*for-section-text-start-here*/
 ::selection {
  background: #003e93; /* WebKit/Blink Browsers */
@@ -570,8 +573,38 @@ ul.nav li.active a:before {
 #features p.feat-sec-1 {
 	padding-top:10px;
 }
+#features p.feat-sec-12 {
+	padding-top:10px;
+	display:none;
+}
+.readMore_btn {
+	background-color: #003e93;
+	border: none;
+	border-radius: 40px;
+	color: white;
+	padding: 15px 32px;
+	font-size: 1.2em;
+	box-shadow: 0px 0px 10px 0px #003e93;
+	cursor: pointer;
+  }
+  .readMore_btn:hover {
+	box-shadow: none;
+	background-color: black;
+	color: #fff;
+	transition: cubic-bezier(0.075, 0.82, 0.165, 1) 3.05s;
+  }
+  .hideText {
+	display: none;
+  }
+  .showText {
+	display:block;
+  }
+
+
+
 #features .tab-content .feat-sec {
 	margin-top:10px;
+	
 }
 #features .tab-content h5 {
 	text-align:left;
@@ -1373,3 +1406,34 @@ color:#fff;
 #features .nav-tabs > li.active > p, #features .nav-tabs > li.active > p:hover, #features .nav-tabs > li.active > p:focus{
 	color: #003e93;
 }
+
+div.text-container {
+    margin: 0 auto;
+    width: 75%;    
+}
+
+.hideContent {
+    overflow: hidden;
+    line-height: 1em;
+    height: 2em;
+}
+
+.showContent {
+    line-height: 1em;
+    height: auto;
+}
+.showContent{
+    height: auto;
+}
+
+h1 {
+    font-size: 24px;        
+}
+p {
+    padding: 10px 0;
+}
+.show-more {
+    padding: 10px 0;
+    text-align: center;
+}
+
