@@ -1,12 +1,8 @@
-/*
-	Cosmix by TEMPLATE STOCK
-	templatestock.co @templatestock
-	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
-*/
 
 * {
 	margin:0 auto;
 	font-family: 'open_sansregular';
+	position:relative;
 
 }
 @font-face {
