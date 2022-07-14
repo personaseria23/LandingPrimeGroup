@@ -6,6 +6,8 @@
 
 * {
 	margin:0 auto;
+	font-family: 'open_sansregular';
+
 }
 @font-face {
  font-family: 'helvetica_ce_55_romanregular';
@@ -25,9 +27,7 @@ body {
 	font-family: 'helvetica_ce_55_romanregular';
 	position: center;
 }
-ul {
-	font-family: 'helvetica_ce_55_romanregular'
-}
+
 /*for-section-text-start-here*/
 ::selection {
  background: #003e93; /* WebKit/Blink Browsers */
@@ -128,6 +128,33 @@ color: #FFF;
 	background-size:cover;
 	background-repeat:no-repeat;
 }
+ .srm::before {
+	content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+	color:#003e93; /* Change the color */
+	font-weight: bold; /* If you want it to be bold */
+	display: inline-block; /* Needed to add space between the bullet and the text */
+	width: 1em; /* Also needed for space (tweak if needed) */
+	margin-left: -1em; 
+}
+li{
+	list-style: none; /* Remove default bullets */
+	
+}
+.li-header{
+	font-family:'open_sansregular';
+	font-size: 13px;
+	color: #666;
+	font-weight: 700;
+	text-align: left;
+}
+.srm{
+	font-family:'open_sansregular';
+	font-size: 13px;
+	color: #666;
+	font-weight: 700;
+	text-align: left;
+}
+
 p {
 	font-size:13px;
 	color:#666;
@@ -285,7 +312,7 @@ ul.nav li.active a:before {
 	background-repeat: no-repeat;
 	background-size:cover;
 	width:100%;
-	height: 650px;
+	height: 750px;
 }
 #home-carousel .item:before {
 	background-color: #000;
@@ -572,6 +599,14 @@ ul.nav li.active a:before {
 }
 #features p.feat-sec-1 {
 	padding-top:10px;
+
+}
+#features ul.feat-sec{
+	text-align: left;
+	}
+#features ul.feat-sec-1{
+	text-align: left;
+	
 }
 #features p.feat-sec-12 {
 	padding-top:10px;
@@ -764,6 +799,7 @@ ul.nav li.active a:before {
 	border-radius: 5px 5px 4px 4px;
 	padding: 15px;
 	text-align: center;
+	font-family: 'helvetica_ce_55_romanregular'
 }
 #pricing ul.pricing:hover {
 	box-shadow: 0 8px 8px rgba(0, 0, 0, .26);
@@ -934,6 +970,8 @@ background:#003e93;
 }
 #fun-facts .col-md-3:last-child .fun-fact {
 	border-right: 0px solid #ddd;
+	font-family: 'helvetica_ce_55_romanregular';
+
 }
 #fun-facts .fun-fact i {
 	margin-right: 5px;
@@ -1084,12 +1122,14 @@ label {
 textarea.form-control {
 	min-height: 120px;
 	resize: none;
+
 }
 .form-control {
 	border: 1px solid #ccc;
 	height: 35px;
 	border-radius: 0;
 	box-shadow: none;
+	font-family: open_sansregular;
 }
 /*Footer-stylesheets-include-here*/
 #footer {
@@ -1232,6 +1272,7 @@ textarea.form-control {
   text-decoration: none;
   font-weight: 300;
   width: 100%;
+  font-family: 'open_sansregular'
 }
 .mobilenav li:last-child div {
   border-bottom: none;
@@ -1410,6 +1451,8 @@ color:#fff;
 div.text-container {
     margin: 0 auto;
     width: 75%;    
+	font-family: 'helvetica_ce_55_romanregular';
+
 }
 
 .hideContent {
