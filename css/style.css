@@ -190,8 +190,10 @@ h5 {
 h6 {
 	font-size:16px;
 }
-strong {
-	font-weight:bolder;
+strong.srrm {
+	font-weight:800px;
+	color:black;
+	font-size: 16px;
 }
 span {
 	color:#003e93;
@@ -206,6 +208,23 @@ span {
 a:hover, a:focus {
 	text-decoration:none;
 }
+
+a.boton{
+	border-color:#003e93	;
+	border-radius:15px;
+	border-style:solid;
+	border-width:3px;
+	color:#ffffff;	
+	font-family: open_sansregular;
+	font-size: 15px;
+	line-height:20px;
+	padding:15px;
+	text-align:center;
+	background-color: #003e93;
+	display: inline-block;
+}
+
+
 a.btn-down {
 	height:50px;
 	width:50px;
@@ -1487,7 +1506,7 @@ p {
 	box-shadow: 0px 0px 10px 0px #003e93;
 	cursor: pointer;	
 }
-button.saberMas2{
+.saberMas2{
 	background-color: #003e93;
 	border: none;
 	border-radius: 40px;
