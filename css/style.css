@@ -2,7 +2,6 @@
 * {
 	margin:0 auto;
 	font-family: 'open_sansregular';
-	position:relative;
 
 }
 @font-face {
@@ -23,7 +22,10 @@ body {
 	font-family: 'helvetica_ce_55_romanregular';
 	position: center;
 }
-
+iframe{
+	position:relative;
+	text-align:left;
+}
 /*for-section-text-start-here*/
 ::selection {
  background: #003e93; /* WebKit/Blink Browsers */
@@ -308,7 +310,7 @@ ul.nav li.active a:before {
 	background-repeat: no-repeat;
 	background-size:cover;
 	width:100%;
-	height: 750px;
+	height: 700px;
 }
 #home-carousel .item:before {
 	background-color: #000;
@@ -1475,4 +1477,23 @@ p {
     padding: 10px 0;
     text-align: center;
 }
-
+.saberMas{
+	background-color: #003e93;
+	border: none;
+	border-radius: 40px;
+	color: white;
+	padding: 10px 25px;
+	font-size: 1.2em;
+	box-shadow: 0px 0px 10px 0px #003e93;
+	cursor: pointer;	
+}
+button.saberMas2{
+	background-color: #003e93;
+	border: none;
+	border-radius: 40px;
+	color: white;
+	padding: 10px 25px;
+	font-size: 1.2em;
+	box-shadow: 0px 0px 10px 0px #003e93;
+	cursor: pointer;
+}
