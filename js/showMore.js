@@ -8,6 +8,8 @@ let botonMAM= document.getElementById('abrirMAM');//imagen
 readMore_btn.addEventListener('click', toggleText);
 ecomerce.addEventListener('click', mostrarImagen);
 
+
+
 function mostrarImagen(){
 if(imgHide.style.display === 'none'){
   imgHide.style.display = 'inline';
