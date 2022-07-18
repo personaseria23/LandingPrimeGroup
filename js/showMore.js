@@ -2,7 +2,8 @@ let readMore_btn = document.getElementById('readMore_btn');//botón
 let hideText = document.getElementById('hideText');//texto
 let youtubeMAM= document.getElementById('youtubeMAM');
 let ecomerce= document.getElementById('leerMasECom');//botón
-let imgHide= document.getElementById('imgHide');//imagen
+let imgHide= document.getElementById('imgHide');
+let botonMAM= document.getElementById('abrirMAM');//imagen
 
 readMore_btn.addEventListener('click', toggleText);
 ecomerce.addEventListener('click', mostrarImagen);

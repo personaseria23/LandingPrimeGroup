@@ -288,6 +288,7 @@ a.btn-send:hover {
 }
 .responsive-iframe{
 	display:flex;
+	margin-bottom: 20px;
 }
 a.navbar-brand img {
 	position:relative;

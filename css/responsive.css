@@ -31,11 +31,6 @@ text-align:justify;
     padding: 0;
 }
 }
-iframe{
-    width: 300px;
-    height: 300px;
-    margin-top: 15px;
-}
 @media all and (min-width: 767px) and (max-width: 992px) {
     iframe{
         width: 300px;
