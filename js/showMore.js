@@ -1,11 +1,23 @@
-let readMore_btn = document.getElementById('readMore_btn');
-let hideText = document.getElementById('hideText');
+let readMore_btn = document.getElementById('readMore_btn');//botón
+let hideText = document.getElementById('hideText');//texto
 let youtubeMAM= document.getElementById('youtubeMAM');
+let ecomerce= document.getElementById('leerMasECom');//botón
+let imgHide= document.getElementById('imgHide');//imagen
 
 readMore_btn.addEventListener('click', toggleText);
+ecomerce.addEventListener('click', mostrarImagen);
 
+function mostrarImagen(){
+if(imgHide.style.display === 'none'){
+  imgHide.style.display = 'inline';
+  ecomerce.innerHTML='Leer menos';
+}else{
+  imgHide.style.display='none';
+  ecomerce.innerHTML='Saber Más';
+}
+}
 function toggleText() {
-  hideText.classList.toggle('showText');
+  hideText.classList.toggle('showText');//texto
   console.log("estás aquí");
   youtubeMAM.style.display="inline";
   console.log("u hir");

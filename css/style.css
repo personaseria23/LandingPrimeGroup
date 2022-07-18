@@ -279,11 +279,15 @@ a.btn-send:hover {
 	-o-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
 }
+
 /*Navigation-stylesheets-include-here*/
 .navbar-default {
 	background:rgba(248, 248, 248, 0);
 	border:rgba(248, 248, 248, 0);
 	padding:5px 5px;
+}
+.responsive-iframe{
+	display:flex;
 }
 a.navbar-brand img {
 	position:relative;
