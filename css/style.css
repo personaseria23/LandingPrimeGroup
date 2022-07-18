@@ -22,9 +22,13 @@ body {
 	font-family: 'helvetica_ce_55_romanregular';
 	position: center;
 }
-iframe{
+.youtubeMAM{
 	position:relative;
 	text-align:left;
+	display:none;
+}
+.lulazo{
+	color:blue;
 }
 /*for-section-text-start-here*/
 ::selection {
@@ -210,7 +214,7 @@ a:hover, a:focus {
 }
 
 a.boton{
-	border-color:#003e93	;
+	border-color:lightskyblue	;
 	border-radius:15px;
 	border-style:solid;
 	border-width:3px;
@@ -237,7 +241,7 @@ a.btn-down {
 }
 a.btn-down:hover {
 	background:#fff;
-	color:#003e93;
+	color:lightskyblue;
 	transition:all 0.5s;
 	-moz-transition: all 0.5s;
 	-o-transition: all 0.5s;
@@ -246,7 +250,7 @@ a.btn-down:hover {
 a.btn-order {
 	height: 50px;
 	width: 50px;
-	color: #003e93;
+	color: lightskyblue;
 	border: 2px solid #003e93;
 	padding: 3% 5%;
 	font-size: 15px;
@@ -301,12 +305,13 @@ a.navbar-brand img {
 	color: #fff;
 }
 #menu ul.nav li a:hover, #menu ul.nav li a.active {
-	color:#6462b9;
+	color:lightskyblue;
 	transition:all 0.4s;
 }
 #menu .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-	color:#6462b9;
+	color:lightskyblue;
 	background:transparent;
+	font-weight: 20px;
 }
 a.navbar-brand {
 	padding:0px;
@@ -480,7 +485,7 @@ ul.nav li.active a:before {
 }
 
 .hoverTitulo:hover{
-  color: #003e93;
+  color: lightskyblue;
 }
 
 .bg-sec h3 {
@@ -586,7 +591,7 @@ ul.nav li.active a:before {
 }
 #features .nav-tabs > li.active > a, #features .nav-tabs > li.active > a:hover, #features .nav-tabs > li.active > a:focus {
 	box-shadow: 0 1px 4px rgba(0, 0, 0, .26);
-	border-bottom:2px solid #003e93;
+	border-bottom:2px solid lightskyblue;
 	background:#f8f8f8;
 }
 
@@ -670,7 +675,7 @@ ul.nav li.active a:before {
 }
 .tab-img {
 	position:relative;
-	top:50px;
+	top:100px;
 }
 /*Portfolio-stylesheets-include-here*/
 #portfolio {
@@ -696,7 +701,7 @@ ul.nav li.active a:before {
 	position: relative;
 }
 #portfolio .portfolio-filter > li a:hover, #portfolio .portfolio-filter > li a.active {
-	background: #003e93;
+	background: lightskyblue;
 	color: #fff;
 	-webkit-transition-duration: 0.5s;
 	-moz-transition-duration: 0.5s;
@@ -911,7 +916,7 @@ ul.nav li.active a:before {
 	transition-duration: 0.3s;
 }
 .team-main-sec:hover h5 {
-	color:#003e93;
+	color:lightskyblue;
 }
 .team-sec h5 {
 	color:#555;
@@ -1047,7 +1052,7 @@ a.btn-blg {
 	color:#666;
 }
 a.btn-blg:hover {
-	color:#003e93;
+	color:lightskyblue;
 	-webkit-transition-duration: 0.3s;
 	-moz-transition-duration: 0.3s;
 	-ms-transition-duration: 0.3s;
@@ -1387,15 +1392,15 @@ padding-top:15px;
 a.btn-learn {
 	height: 50px;
 	width: 50px;
-	color: #003e93;
-	border: 2px solid #003e93;
+	color: lightskyblue;
+	border: 2px solid lightskyblue;
 	padding: 1% 2%;
 	font-size: 15px;
 	position: relative;
 	top: 40px;
 }
 a.btn-learn:hover {
-	background:#003e93;
+	background:lightskyblue;
 	color:#fff;
 	transition:all 0.5s;
 	-moz-transition: all 0.5s;
@@ -1507,6 +1512,26 @@ p {
 	cursor: pointer;	
 }
 .saberMas2{
+	background-color: #003e93;
+	border: none;
+	border-radius: 40px;
+	color: white;
+	padding: 10px 25px;
+	font-size: 1.2em;
+	box-shadow: 0px 0px 10px 0px #003e93;
+	cursor: pointer;
+}
+.saberMasECom	{
+	background-color: #003e93;
+	border: none;
+	border-radius: 40px;
+	color: white;
+	padding: 10px 25px;
+	font-size: 1.2em;
+	box-shadow: 0px 0px 10px 0px #003e93;
+	cursor: pointer;
+}
+.saberMasMAM	{
 	background-color: #003e93;
 	border: none;
 	border-radius: 40px;
