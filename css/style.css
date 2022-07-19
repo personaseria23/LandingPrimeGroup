@@ -164,6 +164,9 @@ p {
 	line-height:25px;
 	font-family: 'open_sansregular';
 }
+br.ecom{
+	text-align: left;
+}
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{
  font-family: 'helvetica_ce_55_romanregular';
 }
@@ -198,6 +201,14 @@ strong.srrm {
 	font-weight:800px;
 	color:black;
 	font-size: 16px;
+	text-align: left;
+}
+
+strong.srrrm {
+	font-weight:800px;
+	color:black;
+	font-size: 16px;
+	text-align: left;
 }
 span {
 	color:#003e93;
@@ -247,6 +258,7 @@ a.btn-down:hover {
 	-o-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
 }
+
 a.btn-order {
 	height: 50px;
 	width: 50px;
@@ -648,6 +660,7 @@ ul.nav li.active a:before {
 	font-size: 1.2em;
 	box-shadow: 0px 0px 10px 0px #003e93;
 	cursor: pointer;
+	margin-top:10px;
   }
   .readMore_btn:hover {
 	box-shadow: none;
