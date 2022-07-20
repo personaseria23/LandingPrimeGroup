@@ -2,11 +2,16 @@
 $('#abrirMAM').on('click', function () {
     console.log("estás aquí");  
     $('.nav-tabs a[href="#tab-6"]').tab('show');
-    document.getElementById("tab-6").scrollIntoView();
+    document.getElementById("features").scrollIntoView();
   })
   
 $('#abrirECom').on('click', function () {
     console.log("estás aquí");  
     $('.nav-tabs a[href="#tab-2"]').tab('show');
-    document.getElementById("tab-2").scrollIntoView();
+    document.getElementById("features").scrollIntoView();
+  })
+$('#abrirSAP').on('click', function () {
+    console.log("estás aquí");  
+    $('.nav-tabs a[href="#tab-1"]').tab('show');
+    document.getElementById("features").scrollIntoView();
   })

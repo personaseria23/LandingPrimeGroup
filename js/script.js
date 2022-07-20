@@ -13,7 +13,7 @@ $(document).ready(function() {
   var owl = $("#owl-slider");
  
   owl.owlCarousel({
- autoPlay: 3000, //Set AutoPlay to 3 seconds
+    autoPlay: 10000, //Set AutoPlay to 3 seconds
     singleItem : true,
     transitionStyle : "fade"
   });
@@ -69,7 +69,7 @@ $(document).ready(function() {
   var owl = $("#owl-testi");
  
   owl.owlCarousel({
-    autoPlay: 3000, //Set AutoPlay to 3 seconds
+    autoPlay: 10000, //Set AutoPlay to 3 seconds
     singleItem : true,
     transitionStyle : "fade"
   });
@@ -181,7 +181,7 @@ $(document).ready(function() {
             [1600, 5]
         ],
         pagination: false,
-       autoPlay: 3000, //Set AutoPlay to 3 seconds
+       autoPlay: 10000, //Set AutoPlay to 3 seconds
 
     });
 	
@@ -241,7 +241,7 @@ $(document).ready(function() {
  
   $("#owl-main-slider").owlCarousel({
  
-       autoPlay: 3000, //Set AutoPlay to 3 seconds
+       autoPlay: 10000, //Set AutoPlay to 3 seconds
       slideSpeed : 300,
       paginationSpeed : 400,
       singleItem:true
@@ -287,7 +287,7 @@ $('#slider-parallax').stellar();
  
   $("#owl-text-slider").owlCarousel({
  
-      autoPlay: 3000, //Set AutoPlay to 3 seconds
+      autoPlay: auto, //Set AutoPlay to 3 seconds
       slideSpeed : 300,
       paginationSpeed : 400,
       singleItem:true
