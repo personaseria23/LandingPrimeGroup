@@ -13,7 +13,7 @@ $(document).ready(function() {
   var owl = $("#owl-slider");
  
   owl.owlCarousel({
-    autoPlay: 10000, //Set AutoPlay to 3 seconds
+    autoPlay: true, //Set AutoPlay to 3 seconds
     singleItem : true,
     transitionStyle : "fade"
   });
@@ -181,7 +181,7 @@ $(document).ready(function() {
             [1600, 5]
         ],
         pagination: false,
-       autoPlay: 10000, //Set AutoPlay to 3 seconds
+       autoPlay: 2000, //Set AutoPlay to 3 seconds
 
     });
 	

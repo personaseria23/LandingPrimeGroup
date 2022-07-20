@@ -1103,12 +1103,12 @@ a.btn-blg:hover {
 	padding:70px 0px 10px 0px;
 }
 .client-logo a {
-	opacity:0.4;
+	opacity:1;
 	display:table;
 	margin:0 auto;
 }
 .client-logo a:hover {
-	opacity:1;
+	opacity:0.5;
 	transition:all 0.5s;
 	-moz-transition: all 0.8s;
 	-o-transition: all 0.8s;
