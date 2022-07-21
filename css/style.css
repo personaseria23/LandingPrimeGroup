@@ -1108,7 +1108,7 @@ a.btn-blg:hover {
 	margin:0 auto;
 }
 .client-logo a:hover {
-	opacity:0.5;
+	opacity:1;
 	transition:all 0.5s;
 	-moz-transition: all 0.8s;
 	-o-transition: all 0.8s;

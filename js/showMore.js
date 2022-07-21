@@ -5,8 +5,36 @@ let ecomerce= document.getElementById('leerMasECom');//botón
 let imgHide= document.getElementById('imgHide');
 let botonMAM= document.getElementById('abrirMAM');//imagen
 let xq = document.getElementById('xqECom');
+let sap = document.getElementById('sapHide');
+let sapMas= document.getElementById('sapMore');
+let sapImg= document.getElementById('imgSAP');
+
+
+sapMas.addEventListener('click',mostrarImgSAP);
 readMore_btn.addEventListener('click', toggleText);
 ecomerce.addEventListener('click', mostrarImagen);
+
+
+
+
+function mostrarImgSAP(){
+  sap.classList.toggle('showText');//texto
+  console.log("estás aquí");
+  sapImg.style.display="inline";
+  console.log("u hir");
+  if(sap.classList.contains('showText')) {
+
+    sapMas.innerHTML = 'Leer menos'
+  }
+  else {
+    sapMas.innerHTML = 'Saber más'
+    sapImg.style.display="none";
+  }
+}
+
+
+
+
 
 
 
@@ -28,15 +56,6 @@ function mostrarImagen(){
 
 
 
-
-  //if(imgHide.style.display === 'none'){
-//  imgHide.style.display = 'inline';
-//  xq.style.display='inline';
-//  ecomerce.innerHTML='Leer menos';
-//}else{
-//  imgHide.style.display='none';
-//  ecomerce.innerHTML='Saber Más';
-//}
 }
 function toggleText() {
   hideText.classList.toggle('showText');//texto
