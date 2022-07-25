@@ -67,7 +67,7 @@ function toggleText() {
   console.log("u hir");
   if(mamTxt.style.display=='inline') {
 
-    readMore_btn.innerHTML = 'Leer menos'
+    readMore_btn.style.display = 'none'
   }
   else {
     readMore_btn.innerHTML = 'Saber más'
