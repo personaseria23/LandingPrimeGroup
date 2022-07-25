@@ -8,7 +8,8 @@ let xq = document.getElementById('xqECom');
 let sap = document.getElementById('sapHide');
 let sapMas= document.getElementById('sapMore');
 let sapImg= document.getElementById('imgSAP');
-
+let mamTxt= document.getElementById('ulMam');
+let mamTxt1= document.getElementById('ulMam1');
 
 sapMas.addEventListener('click',mostrarImgSAP);
 readMore_btn.addEventListener('click', toggleText);
@@ -18,6 +19,7 @@ ecomerce.addEventListener('click', mostrarImagen);
 
 
 function mostrarImgSAP(){
+  
   sap.classList.toggle('showText');//texto
   console.log("estás aquí");
   sapImg.style.display="inline";
@@ -58,11 +60,12 @@ function mostrarImagen(){
 
 }
 function toggleText() {
-  hideText.classList.toggle('showText');//texto
+  mamTxt.style.display="inline";
+  mamTxt1.style.display="inline";//texto
   console.log("estás aquí");
   youtubeMAM.style.display="inline";
   console.log("u hir");
-  if(hideText.classList.contains('showText')) {
+  if(mamTxt.style.display=='inline') {
 
     readMore_btn.innerHTML = 'Leer menos'
   }
