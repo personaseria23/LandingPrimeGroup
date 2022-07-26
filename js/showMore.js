@@ -10,12 +10,14 @@ let sapMas= document.getElementById('sapMore');
 let sapImg= document.getElementById('imgSAP');
 let mamTxt= document.getElementById('ulMam');
 let mamTxt1= document.getElementById('ulMam1');
+let botonMenos= document.getElementById('readMore_btn2');
 
 sapMas.addEventListener('click',mostrarImgSAP);
 readMore_btn.addEventListener('click', toggleText);
 ecomerce.addEventListener('click', mostrarImagen);
+botonMenos.addEventListener('click', mostrarMenosMam);
 
-
+  
 
 
 function mostrarImgSAP(){
@@ -53,12 +55,8 @@ function mostrarImagen(){
     ecomerce.innerHTML = 'Saber más'
     xq.style.display="none";
   }
-
-
-
-
-
 }
+
 function toggleText() {
   mamTxt.style.display="inline";
   mamTxt1.style.display="inline";//texto
@@ -66,11 +64,18 @@ function toggleText() {
   youtubeMAM.style.display="inline";
   console.log("u hir");
   if(mamTxt.style.display=='inline') {
-
+    
     readMore_btn.style.display = 'none'
+    botonMenos.style.display= 'inline';
   }
   else {
-    readMore_btn.innerHTML = 'Saber más'
+    readMore_btn.innerHTML = 'Saber más//'
     youtubeMAM.style.display="none";
   }
+}
+function mostrarMenosMam() {
+  mamTxt.style.display="none";
+  mamTxt1.style.display="none";
+  youtubeMAM.style.display="none";
+  botonMenos.innerHTML = 'Saber mas'
 }
