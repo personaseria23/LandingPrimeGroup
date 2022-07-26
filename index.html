@@ -274,31 +274,33 @@
           <p class="feat-sec-1">Nuestro método de desarrollo cuenta con consultoría técnico-funcional, la cual nos permite entender la verdadera
             problemática del cliente y así poder aplicar las mejores prácticas sin perder de vista la eficiencia y aplicabilidad de la solución planteada.
             Este conocimiento técnico y funcional (procesos de negocio en SAP) es fundamental para nuestro enfoque de Valor hacia el cliente, evitando así desarrollar lo que el sistema de manera estándar proporciona dentro de sus procesos.</p>
-          <p id="sapHide" class="hideText"><strong class="srrrm">Consultoría Funcional</strong>
-            <br>
-            <br class="eCom">■ Implementación de SAP ECC R/3, en todos sus módulos. 
-            <br>■ Implementación de SAP CRM.
-            <br>■ Implementación de solución de Industria SAP Telco/Utilities.
-            <br>■ Proyectos de mejora continua, Rollout y SAP upgrade.
-            <br>■ Seguridad SAP: Roles y perfiles.
-            <br>■ Proyectos de SAP archiving.
-            <br>■ Solution manager, Enterprise Portals.
-            <br>
-            <br>
-            
-            <strong class="srrrm">Consultoría Técnica</strong>
-            <br>
-            <br class="eCom">Contamos con un equipo de consultores técnicos especialistas en ABAP/4, Netweaver y Mobile Services. Nuestras principales áreas de acción son:. 
-            <br>■ Localización y reporting.
-            <br>■ Desarrollo de nuevas funcionalidades SAP.
-            <br>■ Integraciones a través del Middleware SAP/PI.
-            <br>■ Desarrollos Webdynpo.
-            <br>■ Desarrollo de apps para dispositivos móviles.
-            <br>■ Facturación electrónica.
-            <br>■ Radiofrecuencia migración de datos y sistemas.
-            <br>■ Portals
-            </p>          
-            <button class="readMore_btn" id="sapMore">Saber Más</button>
+            <div id="divSap" class="divSap">
+              <ul class="ulSap" id="ulSap">
+              <p class="li-header"><strong class="srrm">Consultoría Funcional</strong>
+              <br>
+                  <li class="srm">Implementación de SAP ECC R/3, en todos sus módulos.</li>
+                  <li class="srm">Implementación de solución de Industria SAP Telco/Utilities.</li>
+                  <li class="srm">Proyectos de mejora continua, Rollout y SAP upgrade.</li>
+                  <li class="srm">Seguridad SAP: Roles y perfiles.</li>
+                  <li class="srm">Proyectos de SAP archiving.</li>
+                  <li class="srm">Solution manager, Enterprise Portals.</li>
+              </p>
+              </ul>
+              <ul class="ulSap" id="ulSap"> 
+                <p class="li-header"><strong class="srrm">Consultoría Técnica</strong>
+                  <p> Contamos con un equipo de consultores técnicos especialistas en ABAP/4, Netweaver y Mobile Services. Nuestras principales áreas de acción son:.</p>
+                  <li class="srm">Localización y reporting.</li>
+                  <li class="srm">Desarrollo de nuevas funcionalidades SAP.</li>
+                  <li class="srm">Integraciones a través del Middleware SAP/PI.</li>
+                  <li class="srm">Desarrollos Webdynpo.</li>
+                  <li class="srm">Desarrollo de apps para dispositivos móviles.</li>
+                  <li class="srm">Facturación electrónica.</li>
+                  <li class="srm">Radiofrecuencia migración de datos y sistemas.</li>
+                  <li class="srm">Portals.</li>              
+                </p>
+              </ul>
+            </div>
+            <button class="readMore_btn" id="botonSap" onClick="handleClickSap()">Saber Más</button>
         </div>
         <div class="col-md-6 tab-img"><img src="images/Features/01.jpg" class="img-responsive" alt=""></div>
         <div class="col-md-6"; style="margin-top: 150px;">
@@ -311,27 +313,27 @@
           <div class="line"></div>
           <div class="clearfix"></div>
           <p class="feat-sec">El sistema eCommerce Prime está completamente integrado con los módulos logísticos y comerciales de SAP (MM y SD), de tal forma que cada cesta o carro de compras, crean en forma automática Pedidos de Venta en SAP.<br>
-          </p>
-          <p class="feat-sec-1">La integración on-line, sumado con la posibilidad de configuración de la plataforma comercial, entrega un modelo de solución escalable, flexible y eficiente, que permite a las empresas contar con absoluta trazabilidad de sus procesos comerciales.</p>
-          <p id="imgHide" class="hideText"><strong class="srrrm">Principales Ventajas:</strong>
-            <br>
-            <br class="eCom">■ Registro de distintos tipos de usuario (Admin, cliente, etc)
-            <br>■ Despliegue de productos y ofertas según tipo de cliente.
-            <br>■ Front-end moderno y adaptable a los distintos tipos de dispositivos electrónicos.
-            <br>■ Segmentación de precios de la misma forma en qué se hacen los cálculos en SAP. (Utilizando Precios de lista, recargos y descuentos)
-            <br>■ Manejo de cupones y descuentos.
-            <br>■ Chat On-Line para atención en línea a los clientes.
-            <br>■ Estadísticas por Google Analytics.
-            <br>■ Generación de e-mails con información de promociones y campañas.
-            <br>
-            
-            <img width="567" src="images/Features//ecom.jpg" style="margin-top: 20px">
+            <div class="divEcom" id="divEcom">
+              <p class="li-header"><strong class="srrm">¿Por qué implementar MAM?</strong>
+                <ul class="ulEcom" id="ulEcom">
+                  <li class="srm">Registro de distintos tipos de usuario (Admin, cliente, etc)</li>
+                  <li class="srm">Despliegue de productos y ofertas según tipo de cliente.</li>
+                  <li class="srm">Front-end moderno y adaptable a los distintos tipos de dispositivos electrónicos.</li>
+                  <li class="srm">Segmentación de precios de la misma forma en qué se hacen los cálculos en SAP. (Utilizando Precios de lista, recargos y descuentos).</li>
+                  <li class="srm">Manejo de cupones y descuentos.</li>
+                  <li class="srm">Chat On-Line para atención en línea a los clientes.</li>
+                  <li class="srm">Estadísticas por Google Analytics.</li>
+                  <li class="srm">Generación de e-mails con información de promociones y campañas.</li>
+                </ul>
+              </p>  
+                  <img width="567" src="images/Features//ecom.jpg" style="margin-top: 20px">
             </p>          
-            <button class="readMore_btn" id="leerMasECom">Saber Más</button>
+          </div>
+            <button class="readMore_btn" id="leerMasECom" onClick="handleClickEcom()">Saber Más</button>
         </div>
         <div class="col-md-6 tab-img"><iframe width="471" height="269" src="https://www.youtube.com/embed/PPcCktIChIw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
         <div class="col-md-6"; style="margin-top: 150px;">
-          <img src="images/Features/xq.png" class="img-responsive2" id="xqECom" alt="">
+          <img src="images/Features/xq.png" class="img-responsive2" id="porQue" alt="">
         </div>
       </div>
       <div role="tabpanel" class="tab-pane fade feat-sec" id="tab-3">
@@ -378,27 +380,29 @@
           <p class="feat-sec">Es una solución diseñada para el control y administración del stock y servicios brindados por contratistas o cuadrillas de trabajo en terreno. Permite realizar la gestión de operaciones y obras, desde el agendamiento de los trabajos a los técnicos, control de stock asignado a cuadrillas, bitácoras de trabajo, mantenimiento, instalaciones y control de avance, entre otros.
           <br> Su integración con SAP, flexibilidad y escalabilidad, sumado al control y trazabilidad en todo momento del equipamiento utilizado en terreno, hacen de MAM la herramienta perfecta para ayudar a las empresas en la evolución digital de su negocio: Sistema robusto, con altos estándares de seguridad, fácil de usar y disponible en todo momento y lugar mediante su App Móvil.<br>
           </p>
-            <ul class="ulMam" id="ulMam">
-            <p class="li-header"><strong class="srrm">¿Por qué implementar MAM?</strong>
-            <br>
-            <li class="srm">Control de inventarios: gestión de Stock en bodega contratistas, en tránsito (PET) y equipamiento instalado</li>
-            <li class="srm">Integración online con SAP: Hub de integración con SAP, sin necesidad de consultorías externas (solución end to end con sistema BackOffice)</li>
-            <li class="srm">Flexibilidad: personalizable a las particularidad de operación de cada compañía.</li>
-            <li class="srm">Escalabilidad: creciente funcional (modular) y según tamaño de su fuerza de trabajo.</li>
-            </p>
-            </ul>
-            <ul class="ulMam" id="ulMam1"> 
-              <p class="li-header"><strong class="srrm">Principales Ventajas:</strong>
-                <li class="srm">Permite trazar y controlar todas las actividades en terreno de forma remota</li>
-                <li class="srm">Gestión de stock a nivel de bodega (contratista), camionetas o unidad de trabajo (cuadrillas y técnicos)</li>
-                <li class="srm">Gestión de Servicios de instalación, mantenimiento y retiros</li>
-                <li class="srm">Integración online con SAP, lo cual permite control en línea de todo el ciclo de vida del AF</li>
-                <li class="srm">App móvil: bitácora de trabajo, instalaciones, retiros, visualización de stock, notificación OT, etc.</li>
-                <li class="srm">Personalizable a distintos tipos de Negocios: Telecom, Redes, Utilities, Distribución</li>
-                <li class="srm">Módulo de administración y seguridad de usuarios y dispositivos móviles</li>          
+            <div id="divMam" class="divMam">
+              <ul class="ulMam" id="ulMam">
+              <p class="li-header"><strong class="srrm">¿Por qué implementar MAM?</strong>
+              <br>
+                  <li class="srm">Control de inventarios: gestión de Stock en bodega contratistas, en tránsito (PET) y equipamiento instalado</li>
+                  <li class="srm">Integración online con SAP: Hub de integración con SAP, sin necesidad de consultorías externas (solución end to end con sistema BackOffice)</li>
+                  <li class="srm">Flexibilidad: personalizable a las particularidad de operación de cada compañía.</li>
+                  <li class="srm">Escalabilidad: creciente funcional (modular) y según tamaño de su fuerza de trabajo.</li>
               </p>
-            </ul>  
-          <button class="readMore_btn" id="readMore_btn">Saber Más/-</button>
+              </ul>
+              <ul class="ulMam" id="ulMam1"> 
+                <p class="li-header"><strong class="srrm">Principales Ventajas:</strong>
+                  <li class="srm">Permite trazar y controlar todas las actividades en terreno de forma remota</li>
+                  <li class="srm">Gestión de stock a nivel de bodega (contratista), camionetas o unidad de trabajo (cuadrillas y técnicos)</li>
+                  <li class="srm">Gestión de Servicios de instalación, mantenimiento y retiros</li>
+                  <li class="srm">Integración online con SAP, lo cual permite control en línea de todo el ciclo de vida del AF</li>
+                  <li class="srm">App móvil: bitácora de trabajo, instalaciones, retiros, visualización de stock, notificación OT, etc.</li>
+                  <li class="srm">Personalizable a distintos tipos de Negocios: Telecom, Redes, Utilities, Distribución</li>
+                  <li class="srm">Módulo de administración y seguridad de usuarios y dispositivos móviles</li>          
+                </p>
+              </ul>
+            </div>    
+          <button class="readMore_btn" id="readMore_btn" onClick="handleClickMam()">Saber Más</button>
           <button class="readMore_btn2" id="readMore_btn2">Leer menos</button>
 
         </div>
@@ -413,28 +417,31 @@
           <h5>SRM Prime</h5>
             <div class="line"></div>
               <div class="clearfix"></div>
-                  <p class="feat-sec">El SRM Prime es la plataforma para optimizar y estandarizar los procesos de abastecimiento de una empresa, afianzando las relaciones con proveedores dando autonomía a los mismos para realizar autoconsultas, permitiendo disminuir riesgos al transparentar los procesos de compra de las empresa con ahorros significativos en los valores.
-                  
+              <p class="feat-sec">El SRM Prime es la plataforma para optimizar y estandarizar los procesos de abastecimiento de una empresa, afianzando las relaciones con proveedores dando autonomía a los mismos para realizar autoconsultas, permitiendo disminuir riesgos al transparentar los procesos de compra de las empresa con ahorros significativos en los valores.
+                <div id="divSrm" class="divSrm">
                   <ul class="ulSrm" id="ulSrm">
-                    <br>Cuenta con las siguientes componentes:<br>
-                    <p class="li-header"><strong class="srrm">Gestión de compras</strong>
-                    <li class="srm">Catálogos</li>
-                    <li class="srm">Requerimientos de compras</li>
-                    <li class="srm">Gestion y analisis de cotizaciones, licitaciones y subastas</li>
-                    <li class="srm">Generación OC </li>
-                    <li class="srm">Aprobaciones</li>
+                    <p class="li-header"><strong class="srrm">¿Por qué implementar el SRM Prime?</strong>
+                      <li class="srm">Mejora la relación colaborativa con los proveedores.</li>
+                      <li class="srm">Está disponible 24/7 para las distintas consultas de órdenes de compra, recepciones de mercaderías o servicios, facturas, pagos, etc.</li>
+                      <li class="srm">Permite realizar los procesos de compra de manera integral (desde que nace el requerimiento hasta).</li>
+                      <li class="srm">Está totalmente integrado a SAP.</li>
+                      <li class="srm">Se puede utilizar desde cualquier dispositivo móvil o de escritorio (responsive).</li>
                     <br>
                   </p>
                 </ul>
-                <ul class="ulSrm" id="ulSrm1">
-                  <p class="li-header"><strong class="srrm">Portal de proveedores</strong></p>
-                    <li class="srm">Manejo de cotizaciones</li>
-                    <li class="srm">Recepción de mercancías y servicios
-                    <li class="srm">Ingreso de facturas</li>
-                    <li class="srm">Portal de documentos</li>
-                    </p>
+                <ul class="ulSrm" id="ulSrm">
+                  <p class="li-header"><strong class="srrm">Principales Ventajas:</strong></p>
+                      <li class="srm">Ahorros importantes logrados en las negociaciones con los proveedores, logrando mejores precios de compra.</li>
+                      <li class="srm">Optimización de tiempos del personal de la empresa que atienden a los proveedores.</li>
+                      <li class="srm">Manejo de Aprobaciones.</li>
+                      <li class="srm">Portal de documentos</li>
+                      <li class="srm">Procesos auditables.</li>
+                      <li class="srm">Reducción de riesgos de fraude.</li>
+                      <li class="srm">Módulo de administración y seguridad de usuarios</li>
+                  </p>
                 </ul>
-                <button class="readMore_btn" id="saberSrm" >Saber Más</button>
+              </div>
+                <button class="readMore_btn" id="saberSrm" onClick="handleClickSrm()">Saber Más</button>
 
         </div>
         <div class="col-md-6 tab-img"><img src="images/Features/02.jpg" class="img-responsive" alt=""></div>
@@ -443,84 +450,7 @@
   </div>
 </section>
 
-<!--Blog-Section-Start-->
-<!--<section id="blog">
-  <div class="container">
-    <div class="col-md-8 col-md-offset-2">
-      <div class="heading">
-        <h2>LATEST BL<span>OG</span></h2>
-        <div class="line"></div>
-        <p><span><strong>L</strong></span>orem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut 
-          et dolore magna aliqua. Ut enim ad minim veniam</p>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-12">
-        <div class="col-md-4 blog-sec">
-          <div class="blog-info"> <img src="images/Blog/1.jpg" class="img-responsive" alt="">
-            <div class="data-meta">
-              <h4>Jan</h4>
-              <strong>10</strong><br>
-              2016 </div>
-            <a href="#">
-            <h5>Sed ut perspiciatis unde omnis</h5>
-            </a>     
-            <ul class="blog-icon">
-              <li><i class="fa fa-pencil"></i><a href="#">
-                <h6>John</h6>
-                </a></li>
-              <li class="comment"><i class="fa fa-comment"></i><a href="#">
-                <h6>13</h6>
-                </a></li>
-            </ul>
-            <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate.</p>
-            <a href="#" class="btn-blg">Read More</a> </div>
-        </div>
-        <div class="col-md-4 blog-sec">
-          <div class="blog-info"> <img src="images/Blog/2.jpg" class="img-responsive" alt="">
-            <div class="data-meta">
-              <h4>Jan</h4>
-              <strong>20</strong><br>
-              2016 </div>
-            <a href="#">
-            <h5>Sed ut perspiciatis unde omnis</h5>
-            </a>
-            <ul class="blog-icon">
-              <li><i class="fa fa-pencil"></i><a href="#">
-                <h6>Maria</h6>
-                </a></li>
-              <li class="comment"><i class="fa fa-comment"></i><a href="#">
-                <h6>04</h6>
-                </a></li>
-            </ul>
-            <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate.</p>
-            <a href="#" class="btn-blg">Read More</a> </div>
-        </div>
-        <div class="col-md-4 blog-sec">
-          <div class="blog-info"> <img src="images/Blog/3.jpg" class="img-responsive" alt="">
-            <div class="data-meta">
-              <h4>Jan</h4>
-              <strong>31</strong><br>
-              2016 </div>
-            <a href="#">
-            <h5>Sed ut perspiciatis unde omnis</h5>
-            </a>
-            <ul class="blog-icon">
-              <li><i class="fa fa-pencil"></i><a href="#">
-                <h6>Bear</h6>
-                </a></li>
-              <li class="comment"><i class="fa fa-comment"></i><a href="#">
-                <h6>05</h6>
-                </a></li>
-            </ul>
-            <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate.</p>
-            <a href="#" class="btn-blg">Read More</a> </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>--!>
-<!--Client-Section-Start-->
+
 <div id="client">
   <div class="col-md-8 col-md-offset-2">
     <div class="heading">
@@ -556,18 +486,7 @@
     </div>
     <div class="text-center">
       <div class="col-md-6 col-sm-6 contact-sec-1">
-        <!--  <h4>Contacto<span></span></h4>
-        <ul class="contact-form">
-          <li><i class="fa fa-map-marker"></i>
-            <h6><strong>Dirección:</strong> Avenida el Bosque Norte #0123 of. 1502, Las Condes. Santiago de Chile.</h6>
-          </li>
-          <li><i class="fa fa-envelope"></i>
-            <h6><strong>Contacto:</strong> <a href="#">contacto@primegroup.cl</a></h6>
-          </li>
-          <li><i class="fa fa-phone"></i>
-            <h6><strong>Teléfono:</strong> (+569) 9871 8916</h6>
-          </li>
-        </ul>-->
+    
         <iframe class="responsive-iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3330.2757871703343!2d-70.602411684953!3d-33.4160535807838!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662cf402a306225%3A0x83f8976bf1da2ef3!2sAv.%20El%20Bosque%20Nte.%200123%2C%20oficina%201502%2C%20Las%20Condes%2C%207550173%2C%20Regi%C3%B3n%20Metropolitana!5e0!3m2!1ses-419!2scl!4v1655153665808!5m2!1ses-419!2scl" width="300" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
       </div>
       <div class="col-md-6 col-sm-6">
