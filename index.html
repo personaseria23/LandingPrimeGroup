@@ -25,10 +25,7 @@
 <link rel="stylesheet" type="text/css" href="css/owl.theme.css">
 <link rel="stylesheet" type="text/css" href="css/owl.transitions.css">
   
-<!--[if lt IE 9]>
-    <script src="js/html5shiv.js"></script>
-    <script src="js/respond.min.js"></script>
-  [endif]-->
+
   <!--Cargar íconos Font-Awesome-->
   <script src="https://kit.fontawesome.com/cee70399fc.js" crossorigin="anonymous"></script>
 </head>
@@ -41,16 +38,16 @@
     <div class="preload-placeholder"></div>
   </div>
 </div>
-<!--Navigation-->
+<!--Navegación-->
 <header id="menu">
   <div class="navbar navbar-default navbar-fixed-top">
     <div class="container">
       <div class="container-fluid">
-        <!-- Brand and toggle get grouped for better mobile display -->
+        <!-- toggle para movil -->
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
           <a class="navbar-brand" href="#menu"><img src="images/Logo/01.png" alt=""></a> </div>
-        <!-- Collect the nav links, forms, and other content for toggling -->
+        <!-- junta elementos para el toggle -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav">
             <li class="active"><a class="scroll" href="#menu">Inicio</a></li>
@@ -69,7 +66,7 @@
     </div>
   </div>
 </header>
-<!--Slider-Start-->
+<!--Inicio de Slider-->
 <section id="slider">
   <div id="home-carousel" class="carousel slide" data-ride="carousel">
     <div class="carousel-inner">
@@ -80,7 +77,6 @@
               <h1>Somos</h1>
               <h2>Prime Group</h2>
               <p>Una empresa de servicios de consultoría TI y service partner de SAP, especialistas en toda la cadena de valor de la compañía.
-                <!-- <img class="sap" height="54" height="85" src="images/Slider/sap.png"> </p>-->
             </div>
           </div>
         </div>
@@ -127,7 +123,7 @@
   </div>
   <!--/#home-carousel-->
 </section>
-<!--About-Section-Start-->
+<!--Inicio seccion about-->
 <section id="about">
   <div class="container">
     <div class="col-md-8 col-md-offset-2">
@@ -151,16 +147,10 @@
   </div>
 </section>
 <!--About-Sec-2-Start-->
+
 <!--<CHARLIBOI WAS HERE">
-  <div class="container">
-    <div class="col-md-10 col-sm-10 col-xs-8">
-      <h3>Premium quality free onepage template</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
-    </div>
-    <div class="col-md-2 col-sm-2 col-xs-4"> <a class="btn-down" href="#">Download</a> </div>
-  </div>
-</div>--> 
-<!--Service-Section-Start-->
+  
+<!--Service inicio-->
   <section id="service">
     <div class="container">
       <div class="col-md-8 col-md-offset-2">
@@ -207,7 +197,7 @@
     </div>
     </div>
   </section>
-<!--Features-Section-Start-->
+<!--inicio features-->
 <section id="features">
   <div class="container">
     <div class="col-md-8 col-md-offset-2">
@@ -450,7 +440,7 @@
   </div>
 </section>
 
-
+<!--inicio clientes-->
 <div id="client">
   <div class="col-md-8 col-md-offset-2">
     <div class="heading">
@@ -474,7 +464,7 @@
         </div>
   </div>
 </div>
-<!--Contact-Section-Start-->
+<!--seccion contacto-->
 <section id="contact">
   <div class="container">
     <div class="col-md-8 col-md-offset-2">
@@ -579,6 +569,7 @@ document.getElementById('form')
     .then(() => {
       btn.value = 'Mensaje enviado';
       alert('Mensaje enviado con éxito');
+      btn.setAttribute("disabled","disabled");
     }, (err) => {
       btn.value = 'Enviar';
       alert(JSON.stringify(err));
@@ -587,6 +578,5 @@ document.getElementById('form')
 </script>
 </html>
 
-<!-- Hosting24 Analytics Code -->
-<script type="text/javascript" src="http://stats.hosting24.com/count.php"></script>
-<!-- End Of Analytics Code -->
+
+
